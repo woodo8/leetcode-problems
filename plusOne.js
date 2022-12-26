@@ -12,9 +12,7 @@ var plusOne = function (digits) {
             digits[i] = 0
         }
     }
-
     //  if every number is equal to 9 until the beginning of array make value of every index equal to 0 and add 1 in the front with unshift
     digits.unshift(1)
     return digits
 }
-console.log(plusOne([1, 9, 9]))
